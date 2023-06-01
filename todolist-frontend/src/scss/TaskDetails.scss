@@ -1,0 +1,12 @@
+@import '../custom.scss';
+
+.buttons-div{
+   width: 100%;
+//    background-color: red;
+   display: flex;
+   justify-content: center;
+}
+
+.task-details-undo{
+   color: $tertiary !important;
+}

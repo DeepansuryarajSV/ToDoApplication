@@ -1,0 +1,36 @@
+@import '../custom.scss';
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.LoginPageContainer{
+    height: 100vh;
+    // background-color: red;
+}
+
+.form-container{
+    background-color: $tertiary;
+    max-width: 30% !important;
+    padding: 2em;
+}
+
+.custom-button-reg{
+    color: $tertiary !important;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    // color: red;
+}
+
+.reg-link{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.custom-button-reg:hover{
+    background-color: $dark;
+    color: $tertiary;
+}
